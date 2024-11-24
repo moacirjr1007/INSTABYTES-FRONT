@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melhores personagens! Veja fotos das animações e breves legendas criadas pelo Gemini incríveis.">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/byte.ico">
+    
+    <!-- Título -->
+    <title>InstaBytes</title>
+    
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Cabeçalho com a barra de navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Insta<strong>bytes</strong>
+            </div>
+            <div class="nav-links">
+                <button class="login-btn" aria-label="Entrar">Entrar</button>
+                <a href="#" class="signup-link" aria-label="Cadastre-se">Cadastre-se</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="profile-container">
+        <!-- Seção de cabeçalho do perfil -->
+        <section class="profile-header">
+            <img 
+                src="photos/lucario.png" 
+                alt="Foto de perfil de Guilherme Lima, um desenvolvedor apaixonado por viagens." 
+                class="profile-pic" 
+            />
+            <div class="profile-info">
+                <h1>@dev_animation</h1>
+                <p>9 publicações · 5.000 seguidores · 200 seguindo</p>
+            </div>
+        </section>
+
+        <!-- Grade de imagens -->
+        <section class="image-grid">
+            <!-- Adicione aqui os itens da grade -->
+        </section>
+    </main>
+
+    <!-- Modal para visualização das imagens -->
+    <div id="modal" class="modal">
+        <span class="close" aria-label="Fechar">x</span>
+        <img class="modal-content" id="modal-img" alt="Imagem em destaque">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="assets/js/index.js" type="module"></script>
+</body>
+</html>
